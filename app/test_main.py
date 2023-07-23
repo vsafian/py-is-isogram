@@ -14,5 +14,7 @@ class TestIsogram:
             ("", True),
         ]
     )
-    def test_is_isogram(self, word: str, expected: bool) -> None:
+    def test_is_isogram(self,
+                        word: str,
+                        expected: bool) -> None:
         assert is_isogram(word) == expected
